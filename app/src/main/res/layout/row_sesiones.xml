@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            >
+            <TextView
+                android:id="@+id/sesion_name"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Sesion"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            >
+            <TextView
+                android:id="@+id/sesion_estado"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Finalizada"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            >
+            <TextView
+                android:id="@+id/sesion_fecha"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:text="14/09/17"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/sesion_ini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14:00"/>
+            <TextView
+                android:id="@+id/sesion_inito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14:05"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/sesion_fin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14:00"/>
+            <TextView
+                android:id="@+id/sesion_finto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17:05"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
